@@ -65,6 +65,7 @@ section header{
 
 #weekly{
    grid-area: weekly;
+   overflow: auto;
    
    &>div{
       grid-template-columns: repeat(4, 292px);
@@ -106,8 +107,6 @@ aside{
 }
 
 #more{
-   margin-top: 32px;
-
    h3{
       margin-top: 8px;
    }
@@ -116,5 +115,4 @@ aside{
       aspect-ratio: 1/1;
       object-fit: cover;
    }
-   
 }
